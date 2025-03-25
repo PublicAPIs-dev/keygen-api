@@ -510,7 +510,7 @@ GEM
     uniform_notifier (1.16.0)
     union_of (1.0.0)
       rails (>= 7.0)
-    uri (0.12.2)
+    uri (0.12.4)
     useragent (0.16.11)
     verbose_migrations (1.0.1)
       rails (>= 6.0)
