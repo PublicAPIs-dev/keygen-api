@@ -324,7 +324,7 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.4)
-    nokogiri (1.16.8)
+    nokogiri (1.18.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     null_association (1.0.0)
@@ -569,7 +569,7 @@ DEPENDENCIES
   memory_profiler
   minitar
   msgpack (~> 1.7)
-  nokogiri (~> 1.16.5)
+  nokogiri (~> 1.18.4)
   null_association
   oj
   openssl (~> 3.1.0)
