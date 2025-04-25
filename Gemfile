@@ -28,7 +28,7 @@ gem 'typed_params', '~> 1.2.7'
 gem 'json', '~> 2.3.0'
 gem 'jsonapi-rails', '0.4.0'
 gem 'oj'
-gem 'nokogiri', '~> 1.16.5'
+gem 'nokogiri', '~> 1.18.8'
 gem 'msgpack', '~> 1.7'
 
 # Billing and subscriptions
@@ -84,7 +84,7 @@ gem 'sendgrid-actionmailer'
 gem 'sprockets', '~> 3.0'
 gem 'premailer', '~> 1.23.0'
 gem 'premailer-rails'
-gem 'haml-rails'
+gem 'haml-rails', '>= 2.1.0'
 gem 'sass-rails'
 
 # Monitoring/APM
@@ -135,7 +135,7 @@ end
 
 group :test do
   gem 'stripe-ruby-mock', github: 'stripe-ruby-mock/stripe-ruby-mock', ref: '6ceea9679bb573cb8bc6830f1bdf670b220a9859', require: 'stripe_mock'
-  gem 'cucumber-rails', '~> 2.5', require: false
+  gem 'cucumber-rails', '~> 3.0', '>= 3.0.0', require: false
   gem 'rspec-rails', '~> 6.1.3'
   gem 'rspec-expectations', '~> 3.13'
   gem 'anbt-sql-formatter'
