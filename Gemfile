@@ -7,7 +7,7 @@ gem 'rails', '~> 7.2.2.1'
 gem 'pg', '~> 1.3.4'
 gem 'puma', '~> 6.4.3'
 gem 'bcrypt', '3.1.17'
-gem 'rack', '~> 2.2.13'
+gem 'rack', '~> 2.2.14'
 gem 'rack-timeout', require: 'rack/timeout/base'
 unless ENV.key?('NO_RACK_ATTACK')
   gem 'rack-attack', '~> 6.6'
@@ -66,7 +66,7 @@ gem 'order_as_specified'
 gem 'rails-pattern_matching'
 
 # Background jobs
-gem 'sidekiq', '~> 7.2.4'
+gem 'sidekiq', '~> 8.0.0'
 gem 'sidekiq-cron', '~> 1.12.0'
 gem 'sidekiq-cronitor', '~> 3.6.0'
 
