@@ -12,7 +12,7 @@ gem 'rack-timeout', require: 'rack/timeout/base'
 unless ENV.key?('NO_RACK_ATTACK')
   gem 'rack-attack', '~> 6.6'
 end
-gem 'rack-cors'
+gem 'rack-cors', '>= 3.0.0'
 gem 'uri', '>= 0.12.2'
 
 # Redis for caching and background jobs
