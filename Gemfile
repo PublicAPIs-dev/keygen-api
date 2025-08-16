@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 ruby '3.3.7'
 
-gem 'rails', '~> 7.2.2.1'
+gem 'rails', '~> 7.2.2.2'
 gem 'pg', '~> 1.3.4'
 gem 'puma', '~> 6.4.3'
 gem 'bcrypt', '3.1.17'
@@ -22,7 +22,7 @@ gem 'redis', '~> 4.7.1'
 gem 'request_migrations', '~> 1.1'
 
 # API params
-gem 'typed_params', '~> 1.2.7'
+gem 'typed_params', '~> 1.3.0'
 
 # Serializers
 gem 'json', '~> 2.3.0'
@@ -52,10 +52,10 @@ gem 'kaminari', '~> 1.2.0'
 
 # Postgres/DB extensions
 gem 'active_record_union'
-gem 'active_record_distinct_on', '~> 1.7'
-gem 'activerecord_where_assoc', '~> 1.2'
+gem 'active_record_distinct_on', '~> 1.8', '>= 1.8.0'
+gem 'activerecord_where_assoc', '~> 1.2', '>= 1.2.1'
 gem 'ar_lazy_preload', '~> 2.0'
-gem 'strong_migrations'
+gem 'strong_migrations', '>= 2.0.0'
 gem 'verbose_migrations'
 gem 'temporary_tables'
 gem 'statement_timeout'
@@ -63,7 +63,7 @@ gem 'union_of'
 gem 'order_as_specified'
 
 # Pattern matching
-gem 'rails-pattern_matching'
+gem 'rails-pattern_matching', '>= 0.3.0'
 
 # Background jobs
 gem 'sidekiq', '~> 7.2.4'
@@ -140,7 +140,7 @@ group :test do
   gem 'rspec-expectations', '~> 3.13'
   gem 'anbt-sql-formatter'
   gem 'factory_bot_rails', '~> 6.4'
-  gem 'database_cleaner', '~> 2.0'
+  gem 'database_cleaner', '~> 2.0', '>= 2.0.2'
   gem 'webmock', '~> 3.14.0'
   gem 'elif', '~> 0.1.0'
   gem 'memory_profiler'
