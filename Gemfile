@@ -51,7 +51,7 @@ gem 'has_scope'
 gem 'kaminari', '~> 1.2.0'
 
 # Postgres/DB extensions
-gem 'active_record_union'
+gem 'active_record_union', '>= 1.4.0'
 gem 'active_record_distinct_on', '~> 1.7'
 gem 'activerecord_where_assoc', '~> 1.2'
 gem 'ar_lazy_preload', '~> 2.0'
@@ -59,7 +59,7 @@ gem 'strong_migrations'
 gem 'verbose_migrations'
 gem 'temporary_tables'
 gem 'statement_timeout'
-gem 'union_of'
+gem 'union_of', '>= 1.0.1'
 gem 'order_as_specified'
 
 # Pattern matching
@@ -135,7 +135,7 @@ end
 
 group :test do
   gem 'stripe-ruby-mock', github: 'stripe-ruby-mock/stripe-ruby-mock', ref: '6ceea9679bb573cb8bc6830f1bdf670b220a9859', require: 'stripe_mock'
-  gem 'cucumber-rails', '~> 2.5', require: false
+  gem 'cucumber-rails', '~> 3.0', '>= 3.0.0', require: false
   gem 'rspec-rails', '~> 6.1.3'
   gem 'rspec-expectations', '~> 3.13'
   gem 'anbt-sql-formatter'
