@@ -19,7 +19,7 @@ gem 'uri', '>= 0.12.2'
 gem 'redis', '~> 4.7.1'
 
 # API migrations
-gem 'request_migrations', '~> 1.1'
+gem 'request_migrations', '~> 1.1', '>= 1.1.2'
 
 # API params
 gem 'typed_params', '~> 1.2.7'
