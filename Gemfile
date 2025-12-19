@@ -99,7 +99,7 @@ end
 gem 'lograge'
 
 # Dist
-gem 'aws-sdk-s3', '~> 1'
+gem 'aws-sdk-s3', '~> 1', '>= 1.208.0'
 gem 'semverse'
 gem 'compact_index'
 gem 'minitar'
