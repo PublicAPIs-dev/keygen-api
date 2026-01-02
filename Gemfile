@@ -68,10 +68,10 @@ gem 'rails-pattern_matching'
 # Background jobs
 gem 'sidekiq', '~> 7.2.4'
 gem 'sidekiq-cron', '~> 1.12.0'
-gem 'sidekiq-cronitor', '~> 3.6.0'
+gem 'sidekiq-cronitor', '~> 3.7.0'
 
 # HTTP requests
-gem 'httparty', '~> 0.22.0'
+gem 'httparty', '~> 0.24.0'
 
 # State machine
 gem 'aasm', '~> 5.0.3'
